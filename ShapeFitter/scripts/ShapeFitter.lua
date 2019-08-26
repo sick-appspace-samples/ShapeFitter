@@ -28,7 +28,6 @@ local DELAY = 1000 -- ms between visualization steps for demonstration purpose
 
 -- Create a viewer
 local viewer = View.create()
-viewer:setID('viewer2D')
 
 -- Setup graphical overlay attributes
 local regionDecoration = View.ShapeDecoration.create()
